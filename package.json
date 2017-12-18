@@ -1,11 +1,12 @@
 {
-    "name": "ngx-openlayers",
+    "name": "neonox31-ngx-openlayers",
     "version": "0.8.16",
     "scripts": {
         "lint": "tslint src/**/*.ts",
-        "test": "ngc && karma start",
+        "test": "echo \"Error: no test specified\" && exit 0",
         "prepublish": "ngc",
-        "ngc": "ngc"
+        "ngc": "ngc",
+        "release": "npm version -m \"[version] %s\" patch"
     },
     "repository": {
         "type": "git",
